@@ -1,3 +1,5 @@
+package Phase1;
+
 import java.util.Scanner;
 
 public class TypeCaster {
