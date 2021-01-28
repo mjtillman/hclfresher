@@ -1,4 +1,4 @@
-package Phase1;
+package phase1;
 
 //2. using private access specifiers
 class priaccessspecifier {

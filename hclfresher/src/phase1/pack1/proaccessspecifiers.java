@@ -1,4 +1,4 @@
-package Phase1.pack1;
+package phase1.pack1;
 
 public class proaccessspecifiers {
 

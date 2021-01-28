@@ -1,6 +1,6 @@
-package Phase1.pack2;
+package phase1.pack2;
 
-import Phase1.pack1.pubaccessspecifiers;
+import phase1.pack1.pubaccessspecifiers;
 
 public class accessSpecifiers4 {
 
