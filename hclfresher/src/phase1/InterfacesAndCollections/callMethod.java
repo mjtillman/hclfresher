@@ -1,4 +1,4 @@
-package phase1;
+package phase1.InterfacesAndCollections;
 
 //call by value
 public class callMethod {

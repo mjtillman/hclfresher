@@ -1,4 +1,4 @@
-package phase1;
+package phase1.BuildingBlocks;
 
 //2. using private access specifiers
 class priaccessspecifier {

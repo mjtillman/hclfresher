@@ -1,6 +1,6 @@
-package phase1.pack2;
+package phase1.BuildingBlocks.pack2;
 
-import phase1.pack1.proaccessspecifiers;
+import phase1.BuildingBlocks.pack1.proaccessspecifiers;
 
 public class accessSpecifiers3 extends proaccessspecifiers {
 

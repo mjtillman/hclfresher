@@ -1,4 +1,4 @@
-package phase1;
+package phase1.BuildingBlocks;
 
 import java.util.Scanner;
 

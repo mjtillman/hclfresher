@@ -1,6 +1,6 @@
-package phase1.pack2;
+package phase1.BuildingBlocks.pack2;
 
-import phase1.pack1.pubaccessspecifiers;
+import phase1.BuildingBlocks.pack1.pubaccessspecifiers;
 
 public class accessSpecifiers4 {
 
