@@ -1,4 +1,4 @@
-package phase1.InterfacesAndCollections;
+package phase2.InterfacesAndCollections;
 
 //method overloading
 public class overloadMethod {

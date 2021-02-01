@@ -1,4 +1,4 @@
-package phase1.InterfacesAndCollections;
+package phase2.InterfacesAndCollections;
 
   //method demo
 public class methodExecution {
