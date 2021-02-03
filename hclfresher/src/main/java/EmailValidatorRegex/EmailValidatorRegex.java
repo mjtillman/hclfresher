@@ -119,9 +119,9 @@ public class EmailValidatorRegex {
 
     } catch (Exception ex) {
       LOG.error(ex);
+    } finally {
+      getInputAndValidate();
     }
-
-    getInputAndValidate();
   }
 
   private static void tryAgain(String id, String existingEmail) {
