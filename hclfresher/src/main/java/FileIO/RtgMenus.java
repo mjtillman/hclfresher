@@ -64,11 +64,11 @@ public class RtgMenus {
 
   public static void generateRandomThought() {
 
-    int thoughtNumber = FileHandler.getNumberOfThoughts();
+    int thoughtCapacity = FileHandler.getNumberOfThoughts();
 
     Random r = new Random();
     int low = 0;
-    int high = thoughtNumber;
+    int high = thoughtCapacity;
     int randomNum = r.nextInt(high-low) + low;
 
     String randomThought = FileHandler.getRandomThought(randomNum);

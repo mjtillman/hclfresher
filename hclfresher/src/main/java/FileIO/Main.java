@@ -1,6 +1,6 @@
 package FileIO;
 
-public class RandomThoughtGenerator {
+public class Main {
 
   public static void main(String[] args) {
 
