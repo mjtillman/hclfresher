@@ -3,7 +3,7 @@ package FileIO;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.File;
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -11,7 +11,6 @@ public class RtgMenus {
 
   private static final Logger LOG = LogManager.getLogger(RtgMenus.class);
   private static final Scanner sc = new Scanner(System.in);
-
 
   public static void mainMenu() {
 
@@ -50,7 +49,7 @@ public class RtgMenus {
       System.out.println("\nEnter your new random thought:");
       System.out.println("(Enter 'm' to return to the main menu.)\n");
 
-      newThought = sc.nextLine().replaceAll("\\s+", "");
+      newThought = sc.nextLine().trim();
 
       if (newThought.equalsIgnoreCase("m")) {
         main = true;
@@ -65,9 +64,11 @@ public class RtgMenus {
 
   public static void generateRandomThought() {
 
+    int thoughtNumber = FileHandler.getNumberOfThoughts();
+
     Random r = new Random();
-    int low = 1;
-    int high = 100;
+    int low = 0;
+    int high = thoughtNumber;
     int randomNum = r.nextInt(high-low) + low;
 
     String randomThought = FileHandler.getRandomThought(randomNum);
